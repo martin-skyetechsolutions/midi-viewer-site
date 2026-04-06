@@ -3,47 +3,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MIDI Viewer — Privacy Policy</title>
+    <title>MIDI Viewer — Pad Display for Roland SPD-SX PRO</title>
     <style>
-        body { font-family: -apple-system, system-ui, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.6; }
-        h1 { font-size: 1.5em; }
-        h2 { font-size: 1.2em; margin-top: 1.5em; }
-        .updated { color: #888; font-size: 0.9em; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, system-ui, sans-serif; background: #0A0A18; color: #E8E8FF; line-height: 1.6; }
+        a { color: #7A8AFF; }
+        .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+        h1 { font-size: 2em; margin-bottom: 0.2em; }
+        .subtitle { color: #7A8AAA; font-size: 1.1em; margin-bottom: 2em; }
+        h2 { font-size: 1.3em; margin-top: 2em; margin-bottom: 0.5em; color: #C8C8FF; }
+        h3 { margin-top: 1.2em; }
+        .hero { text-align: center; padding: 60px 20px 40px; }
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 20px 0; }
+        .feature { background: #12122A; border-radius: 12px; padding: 20px; border: 1px solid #2A2A4E; }
+        .feature h3 { font-size: 1em; margin: 0 0 0.3em 0; }
+        .feature p { color: #7A8AAA; font-size: 0.9em; }
+        .download-section { background: #12122A; border-radius: 12px; padding: 24px; margin: 16px 0; border: 1px solid #2A2A4E; }
+        .download-btn { display: inline-block; background: #3A3A6E; color: #E8E8FF; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 600; margin: 8px 8px 8px 0; }
+        .download-btn:hover { background: #5A5A8E; }
+        .download-btn.soon { background: #1A1A35; color: #7A8AAA; }
+        .badge { display: inline-block; background: #1A1A35; color: #7A8AAA; padding: 4px 10px; border-radius: 4px; font-size: 0.8em; margin-right: 6px; }
+        nav { margin: 20px 0; }
+        nav a { color: #7A8AAA; text-decoration: none; margin-right: 20px; font-size: 0.95em; }
+        nav a:hover { color: #E8E8FF; }
+        .section { margin: 30px 0; }
+        ol, ul { margin: 10px 0 10px 20px; color: #C8C8FF; }
+        li { margin: 4px 0; }
+        code { background: #1A1A35; padding: 2px 6px; border-radius: 3px; font-size: 0.9em; }
+        table { margin: 10px 0; border-collapse: collapse; width: 100%; }
+        td { padding: 8px; }
+        tr { border-bottom: 1px solid #2A2A4E; }
+        td:first-child { color: #7A8AAA; white-space: nowrap; }
+        footer { margin-top: 60px; padding-top: 20px; border-top: 1px solid #2A2A4E; color: #7A8AAA; font-size: 0.85em; }
+        footer a { color: #7A8AAA; }
     </style>
 </head>
 <body>
-    <h1>MIDI Viewer — Privacy Policy</h1>
-    <p class="updated">Last updated: 6 April 2026</p>
+<div class="container">
+    <div class="hero">
+        <h1>MIDI Viewer</h1>
+        <p class="subtitle">Pad display for Roland SPD-SX PRO</p>
+    </div>
 
-    <h2>Overview</h2>
-    <p>MIDI Viewer is a performance utility for viewing drum pad assignments on Roland SPD-SX PRO and compatible devices. The app is designed with privacy in mind — it does not collect, store, or transmit any personal data.</p>
+    <nav>
+        <a href="#download">Download</a>
+        <a href="#features">Features</a>
+        <a href="#guide">User Guide</a>
+        <a href="privacy-policy.html">Privacy</a>
+        <a href="licenses.html">Licenses</a>
+    </nav>
 
-    <h2>Data Collection</h2>
-    <p>MIDI Viewer does <strong>not</strong> collect any personal information. Specifically:</p>
-    <ul>
-        <li>No account or login required</li>
-        <li>No analytics or tracking</li>
-        <li>No advertising</li>
-        <li>No network requests (the app works entirely offline)</li>
-        <li>No access to contacts, photos, location, or other device data</li>
-    </ul>
+    <!-- FEATURES -->
+    <div class="section" id="features">
+        <h2>Features</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>Live Kit Tracking</h3>
+                <p>Display follows kit changes on your SPD-SX PRO in real time via USB MIDI.</p>
+            </div>
+            <div class="feature">
+                <h3>Backup Import</h3>
+                <p>Import your TD0 backup file to populate all 200 kit configurations instantly.</p>
+            </div>
+            <div class="feature">
+                <h3>At-a-Glance Display</h3>
+                <p>3x3 pad grid with wave names, trigger and footswitch labels. Three view modes.</p>
+            </div>
+            <div class="feature">
+                <h3>Adjustable Text</h3>
+                <p>Scale fonts up or down for readability at a distance. Perfect for stage use.</p>
+            </div>
+            <div class="feature">
+                <h3>All Platforms</h3>
+                <p>Runs on macOS, iPad, iPhone, and Android. Same data, same layout.</p>
+            </div>
+            <div class="feature">
+                <h3>Offline Mode</h3>
+                <p>Browse and edit kit labels without the device connected. No internet needed.</p>
+            </div>
+        </div>
+    </div>
 
-    <h2>Local Data</h2>
-    <p>The app stores kit configuration files (YAML format) on your device only. These files contain drum pad labels and settings imported from your MIDI device backup. This data never leaves your device.</p>
+    <!-- DOWNLOAD -->
+    <div class="section" id="download">
+        <h2>Download</h2>
 
-    <h2>MIDI Device Communication</h2>
-    <p>The app communicates with connected MIDI devices (e.g. Roland SPD-SX PRO) via USB using standard MIDI and SysEx protocols. This communication is local to your device and does not involve any network transmission.</p>
+        <div class="download-section">
+            <h3>macOS (Free)</h3>
+            <p style="color:#7A8AAA; margin: 8px 0;">Desktop version — free download.</p>
+            <span class="badge">macOS 12+</span>
+            <span class="badge">Apple Silicon + Intel</span>
+            <br><br>
+            <a href="https://github.com/martin-skyetechsolutions/midi-viewer/releases" class="download-btn">Download from GitHub</a>
+        </div>
 
-    <h2>Subscriptions</h2>
-    <p>Subscription purchases and management are handled entirely by Apple (App Store) or Google (Play Store). MIDI Viewer does not process or store any payment information.</p>
+        <div class="download-section">
+            <h3>iOS (iPad + iPhone)</h3>
+            <p style="color:#7A8AAA; margin: 8px 0;">Free download with 7-day trial. Annual subscription for premium features.</p>
+            <span class="badge">iOS 15+</span>
+            <span class="badge">iPad</span>
+            <span class="badge">iPhone</span>
+            <br><br>
+            <a href="#" class="download-btn soon">Coming Soon on App Store</a>
+        </div>
 
-    <h2>Children's Privacy</h2>
-    <p>The app does not knowingly collect information from children under 13.</p>
+        <div class="download-section">
+            <h3>Android</h3>
+            <p style="color:#7A8AAA; margin: 8px 0;">Coming soon.</p>
+            <span class="badge">Android 10+</span>
+            <br><br>
+            <a href="#" class="download-btn soon">Coming Soon on Play Store</a>
+        </div>
+    </div>
 
-    <h2>Changes</h2>
-    <p>This privacy policy may be updated occasionally. Changes will be posted on this page.</p>
+    <!-- USER GUIDE -->
+    <div class="section" id="guide">
+        <h2>User Guide</h2>
 
-    <h2>Contact</h2>
-    <p>For questions about this privacy policy, contact: <a href="mailto:support@skyetechsolutions.com">support@skyetechsolutions.com</a></p>
+        <h3>Getting Started</h3>
+        <ol>
+            <li>Connect your SPD-SX PRO via USB (set to Generic/Class-Compliant mode)</li>
+            <li>Launch MIDI Viewer</li>
+            <li>Open Settings (SET button, top right) and tap Scan</li>
+            <li>Select the SPD-SX PRO from the device list</li>
+            <li>Switch kits on the SPD — the display follows automatically</li>
+        </ol>
+
+        <h3>Importing Your Setup</h3>
+        <ol>
+            <li>On your SPD-SX PRO: MENU &rarr; BACKUP &rarr; SAVE ALL &rarr; to USB flash drive</li>
+            <li>Connect the USB flash drive to your device (iPad via USB-C adapter, Mac directly)</li>
+            <li>In MIDI Viewer: Settings &rarr; Import Backup</li>
+            <li>Select <code>BKUP-ALL.TD0</code> (the ~4MB config file, not the larger .spd audio file)</li>
+            <li>All 200 kit names, pad labels, triggers, and footswitches are imported</li>
+        </ol>
+        <p style="color:#7A8AAA; margin-top:8px;">On iPad/iPhone you can also import from iCloud Drive or any source visible in the Files app.</p>
+
+        <h3>Controls</h3>
+        <table>
+            <tr><td>Settings</td><td>Tap SET button (top right)</td></tr>
+            <tr><td>Font Size</td><td>Tap + / &minus; buttons (top right)</td></tr>
+            <tr><td>View Mode</td><td>Settings &rarr; View toggle (cycles A / B / C)</td></tr>
+            <tr><td>Edit Labels</td><td>Settings &rarr; Edit Mode &rarr; tap a pad</td></tr>
+            <tr><td>Kit Navigation</td><td>Left / Right arrow keys (desktop)</td></tr>
+        </table>
+
+        <h3>SPD-SX PRO Setup</h3>
+        <p style="color:#7A8AAA; margin: 8px 0;">For MIDI Viewer to communicate with your SPD-SX PRO:</p>
+        <ul>
+            <li>USB Driver Mode: set to <strong>GENERIC</strong> (not Vendor) &mdash; MENU &rarr; SYSTEM &rarr; USB DRIVER</li>
+            <li>PC TX/RX: set to <strong>ON</strong> &mdash; MENU &rarr; SYSTEM &rarr; MIDI</li>
+            <li>Connect via USB-C (iPad) or USB-A/B cable (Mac)</li>
+        </ul>
+
+        <h3>Troubleshooting</h3>
+        <table>
+            <tr><td>Device not found</td><td>Check USB Driver is set to GENERIC. Try Settings &rarr; Scan again.</td></tr>
+            <tr><td>Kits show as empty</td><td>Import your backup file (TD0) — see Importing Your Setup above.</td></tr>
+            <tr><td>Import fails on iOS</td><td>Ensure the TD0 file is fully downloaded (not an iCloud placeholder). Tap it in Files first.</td></tr>
+            <tr><td>Connection drops</td><td>The SPD may revert to Vendor mode after power cycle. Set back to GENERIC.</td></tr>
+            <tr><td>Wrong pad labels</td><td>Re-import your backup after making changes on the SPD.</td></tr>
+        </table>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Skye Tech Solutions</p>
+        <p style="margin-top: 8px;">
+            <a href="privacy-policy.html">Privacy Policy</a> &middot;
+            <a href="https://github.com/martin-skyetechsolutions/midi-viewer-site/issues">Support</a> &middot;
+            <a href="licenses.html">Licenses</a>
+        </p>
+    </footer>
+</div>
 </body>
 </html>
